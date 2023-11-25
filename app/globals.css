@@ -2,26 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+::-webkit-scrollbar-track {
+  background-color: #1f293700; /* Tailwind gray-900 */
 }
 
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: white; /* DaisyUI primary purple */
+}
+
+/* Firefox */
+::-moz-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-moz-scrollbar-track {
+  background-color: #1f293700; /* Tailwind gray-900 */
+}
+
+::-moz-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: #7c3aed; /* DaisyUI primary purple */
+}
+
+/* IE 11+ */
+::-ms-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-ms-scrollbar-track {
+  background-color: #1f293700; /* Tailwind gray-900 */
+}
+
+::-ms-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: #7c3aed; /* DaisyUI primary purple */
+}
+
+@font-face {
+  font-family: f1;
+  src: url(/fonts/Lexend.ttf);
+}
+
+@font-face {
+  font-family: f2;
+  src: url(/fonts/Pacifico-Regular.ttf);
+}
+
+.f{
+  font-family: f2;
+}
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: f1;
+}
+
+.fp-watermark {
+  display: none !important;
+}
+
+.welcome-text {
+  font-family: f2 !important;
+  @apply !text-white
 }

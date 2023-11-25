@@ -1,0 +1,67 @@
+[{
+    "name": "Fireblog",
+    "description": "A blog app 📝 built with Next.js, Tailwind, and PocketBase for an easy and fun experience. Find the best topics on the home page and read great articles by searching for them by tags or searching for what you want .",
+    "tags": "react blog nextjs pocketbase",
+    "url": "https://gofireblog.vercel.app",
+    "images": ["/images/1/1.png", "/images/1/2.png","/images/1/3.png","/images/1/4.png","/images/1/5.png"]
+},{
+    "name": "My Cat",
+    "description": "mycat 🐈❤️, desktop app that allows you to search for images on Google by typing a text in the input field, and then you can save and even download the images 💻.",
+    "tags": "rollup svelte sqlite3 electronjs image-downloader tailwindcss",
+    "url":"https://github.com/kiraaziz/myCat",
+    "images": ["/images/0/1.png", "/images/0/2.png","/images/0/3.png"]
+},
+{
+    "name": "Electron Book",
+    "description": "📝 Introducing Simple Word, a Microsoft Word-like app built using React Quill 💻. Whether you're a student or a professional, Simple Word has everything you need to create and edit beautiful documents 📄",
+    "tags": "react markdown firebase text-editor tailwindcss",
+    "url":"https://electronbook-4c796.web.app/",
+    "images": ["/images/6.png"]
+},
+{
+    "name": "The Mountain",
+    "description": "🏔️📸 The Mountain is a photo-sharing platform built with SvelteKit, Tailwind, and Firebase. Upload your favorite snapshots . The Mountain is the perfect place to share your adventures and discover new ones. 🌄👍👏",
+    "tags": "sveltekit tailwind firebase photo",
+    "images": ["/images/2/1.png", "/images/2/2.png","/images/2/3.png","/images/2/1.png"]
+},
+{
+    "name": "MBTI say",
+    "description": "🧐🔍 Discover the depths of your personality with our MBTI Twitter feed, built with Astro and Tailwind. Dive into the world of Myers-Briggs Type Indicator and explore an endless stream of tweets to learn more about your personality type 🔮🐦",
+    "tags": "astro static",
+    "url": "https://mbtisay.vercel.app/",
+    "images": ["/images/3/1.png", "/images/3/2.png","/images/3/3.png"]
+},
+{
+    "name": "Shopping Candy",
+    "description": "A shopping app 🛒 🔥 built with Next.js, Tailwind, and PocketBase to easily shop items by tags and search with ease.",
+    "tags": "react nextjs tailwindcss pocketbase",
+    "url": "https://github.com/kiraaziz/shoppingCandy",
+    "images": ["/images/5/1.png", "/images/5/2.png","/images/5/3.png"]
+},
+{
+    "name": "My Memo",
+    "description": "📝🔔 Keep your life organized with our React Native Memo and Reminder app. Jot down quick memos or set reminders for important events, appointments, and deadlines! ⏰✅",
+    "tags": "react-native tailwind localstorag",
+    "url": "https://github.com/kiraaziz/My-Memo",
+    "images": ["/images/4/1.png", "/images/4/2.png","/images/4/3.png"]
+},
+{
+    "name": "Buzz",
+    "description": "🎥🔊 Watch videos in style with Buzz, a video player built with ElectronJS and Svelte. Enjoy your favorite movies, TV shows, and videos with customizable interface. From sleek design to advanced features, Buzz is the perfect video player for your needs. 📺👌",
+    "tags": "svelte tailwind electron player",
+    "images": ["/images/7.png"]
+},
+{
+    "name": "Electron Book 2.0" ,
+    "description": "📝💻 Simplify your writing process with Simple Editor, a Word-like text editor built with Electron and React. Enjoy a seamless writing experience with advanced formatting . Whether you're a student, writer, or professional, Simple Editor makes it easy to create polished and professional documents. 📄✨",
+    "tags": "electron react markdown",
+    "images": ["/images/8.png"]
+},
+{
+    "name": "Simple ToDo",
+    "description": "📌✅ Keep your life organized with Simple Todo, a minimalist to-do list app built with Svelte. Create and manage your tasks with ease . Whether you're planning your day or managing a project, Simple Todo makes it easy to stay on track. 📅👍",
+    "url": "http://github.com/kiraaziz/ToDo",
+    "tags": "svelte tailwind",
+    "images": ["/images/9.png"]
+}
+]

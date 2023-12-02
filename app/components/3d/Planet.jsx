@@ -29,7 +29,7 @@ function Scene() {
     if (group.current) {
       // Update the position based on your desired movement logic
       // group.current.rotation.z += 0.001;
-      group.current.rotation.y += 0.001;
+      group.current.rotation.y += 0.005;
       group.current.rotation.z = 1;
 
       //group.current.rotation.x += 0.001;
@@ -49,10 +49,9 @@ function Scene() {
 export default function Planet() {
   return (
     <Suspense>
-      <div className="h-full w-full lg:w-1/2 ">
+      <div className="h-full w-full lg:w-1/2 hidden lg:block">
         <Canvas className="lg:scale-100 scale-75">
           <Scene />
-          <CameraController />
         </Canvas>
       </div>
     </Suspense>

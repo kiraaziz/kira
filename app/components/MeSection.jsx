@@ -20,7 +20,7 @@ export default function MeSection() {
         if (entry.isIntersecting) {
           setVisibility(true);
         } else {
-          setVisibility(false);
+          //setVisibility(false);
         }
       });
     };
@@ -57,7 +57,7 @@ export default function MeSection() {
       <h1
         style={{ zIndex: 12 }}
         className={`flex-1 flex items-center ${visibility ? "tracking-normal" : "tracking-widest"
-          } ease-in-out duration-1000 font-bold max-w-5xl  text-5xl lg:text-7xl delay-1000 text-center welcome-text`}
+          } ease-in-out duration-1000 font-bold max-w-5xl lg:max-w-full  text-5xl lg:text-7xl delay-1000 text-center welcome-text`}
       >
         <Typewriter
           options={{

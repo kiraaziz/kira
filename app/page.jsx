@@ -2,6 +2,7 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import MeSection from "./components/MeSection.jsx";
 import StackSection from "./components/StackSection.jsx";
+import WordsSection from "./components/WordsSection.jsx";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
             </div>
             <div className="section h-full">
               <StackSection />
+            </div>
+            <div className="section h-full">
+              <WordsSection />
             </div>
           </ReactFullpage.Wrapper>
         );

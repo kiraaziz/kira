@@ -58,7 +58,7 @@ export default function StackSection() {
         if (entry.isIntersecting) {
           setVisibility(true);
         } else {
-          setVisibility(false);
+         // setVisibility(false);
         }
       });
     };
@@ -131,9 +131,9 @@ export default function StackSection() {
       <div className="z-10 w-full h-full flex flex-row absolute">
         <div className="flex-1  ">
           <div className={`duration-700 delay-700 ${visibility ? "opacity-100" : "opacity-[0]"} w-screen  h-full items-center justify-center flex flex-col gap-2`}>
-            <h1 className="text-3xl font-bold text-white">
-              <span className="stack">02</span>
-              My Stack
+            <h1 className="text-3xl  font-bold text-white hidden">
+              <span className="text-5xl font-medium mr-9 light-text opacity-50 ">01</span>
+              <span className="tracking-widest">My Stack</span>
             </h1>
             <div ref={containerRef} className="w-full flex flex-row items-center gap-5 lg:gap-14 overflow-x-auto py-20 px-10 lg:px-20   ">
               {Object.keys(iconComponents).map((val, index) => (
@@ -141,10 +141,9 @@ export default function StackSection() {
                   <div className={`div rounded-xl lg:w-80 lg:h-72 w-44 h-40 flex items-center justify-center `}>
 
                   </div>
-                  <span className="absolute">
+                  <span className=" gri absolute">
                     {iconComponents[val]}
                   </span>
-
                 </div>
               ))}
             </div>

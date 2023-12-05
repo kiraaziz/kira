@@ -91,6 +91,7 @@ body {
 
 .blockxxx div {
   background: linear-gradient(0deg, #000, #181818);
+  
   @apply bg-white h-full w-full rounded-full relative
 }
 
@@ -214,4 +215,10 @@ body {
 .stack::after {
   content: "01";
   @apply top-1 left-1 text-purple-500 -z-10 absolute w-max text-transparent bg-clip-text bg-gradient-to-r from-[#fb0094] via-[blue] to-[red]
+}
+
+.light-text{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  color: transparent;
 }
